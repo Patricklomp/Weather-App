@@ -32,7 +32,7 @@ import LocationWeather from './LocationWeather';
     }
 
     getBackFromWeather = () =>{
-      /*method to WeatherContainer state in LocationWeather*/
+      /*method to set WeatherContainer state in LocationWeather*/
       this.setState({
         locationSet: false,
         location: undefined,
